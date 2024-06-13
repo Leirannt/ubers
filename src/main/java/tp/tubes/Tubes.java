@@ -23,7 +23,7 @@ public class Tubes {
         System.out.println("Enter second number: ");
         double num2 = scanner.nextDouble();
 
-        System.out.println("Enter an operator (+, -, *, /): ");
+        System.out.println("Enter an operator (+, -, *, /): "); // ini tanda aritmatika
         char operator = scanner.next().charAt(0);
 
         double result;
