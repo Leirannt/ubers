@@ -53,7 +53,7 @@ public class TubesTest {
         double num1 = 5.0;
         double num2 = 3.0;
         char operator = '-';
-        double expected = 9.0;
+        double expected = 2.0;
         double result = calculate(num1, num2, operator);
         assertEquals(expected, result, 0.001);
     }
